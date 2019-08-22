@@ -18,3 +18,11 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/preguntasFrecuentes', function () {
+    return view('preguntasFrecuentes');
+});
+
+Route::get('/agradecimientos', function () {
+    return view('agradecimientos');
+});
