@@ -15,7 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
@@ -26,3 +25,9 @@ Route::get('/preguntasFrecuentes', function () {
 Route::get('/agradecimientos', function () {
     return view('agradecimientos');
 });
+
+Route::get('/product','ProductController@index');
+
+Route::get('/profile', "UserController@show")->name("profile")->middleware('auth');
+
+Auth::routes();

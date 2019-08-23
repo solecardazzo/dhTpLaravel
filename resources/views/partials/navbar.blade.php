@@ -43,20 +43,22 @@
         </ul>
 
         <ul class="nav navbar-nav ml-auto">
-          <li class="nav-item">
-            <a id="navbarDropdown" class="nav-link text-uppercase" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-              Bienvenida  {{ Auth::user()->name }}
+      <li class="nav-item dropdown">
+            <a id="navbarDropdown" class="nav-link text-uppercase dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+               {{ Auth::user()->name }}
             </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{ route('logout') }}"
-             onclick="event.preventDefault();
-             document.getElementById('logout-form').submit();"><span class="fas fa-sign-out-alt"></span>
-              {{ __('Salir') }}
-            </a>
-            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                @csrf
-            </form>
+            <section class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+              <img src={{asset(Auth::user()->avatar)}} class="avatar">
+                <a class="dropdown-item" href="{{ route('profile') }}">Perfil</a>
+                <a class="dropdown-item" href="{{ route('logout') }}"
+                  onclick="event.preventDefault();
+                  document.getElementById('logout-form').submit();"><span class="fas fa-sign-out-alt"></span>
+                  {{ __('Salir') }}
+                </a>
+                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                  @csrf
+                </form>
+            </section>
           </li>
         </ul>
         @endguest
