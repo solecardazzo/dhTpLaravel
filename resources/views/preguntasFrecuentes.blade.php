@@ -2,6 +2,7 @@
 
 @section('contenido')
 <div class="container">
+  <h2 class="title-agrade"> Preguntas Frecuentes </h2>
     <div class="col-lg-12">
       <div class="tab-content" id="faq-tab-content">
         <div class="tab-pane show active" id="tab1" role="tabpanel" aria-labelledby="tab1">

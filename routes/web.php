@@ -26,8 +26,22 @@ Route::get('/agradecimientos', function () {
     return view('agradecimientos');
 });
 
+Route::get('/contacto', function () {
+    return view('contacto');
+});
+
+Route::get('/eventos', function () {
+    return view('eventos');
+});
+Route::get('/quienesSomos', function () {
+    return view('quienesSomos');
+});
+
 Route::get('/product','ProductController@index');
 
 Route::get('/profile', "UserController@show")->name("profile")->middleware('auth');
 
 Auth::routes();
+
+
+Route::get('/edit/{id}', 'UserUpdateController@edit')->middleware('auth')->name('edit');
