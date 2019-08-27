@@ -6,7 +6,14 @@ use Illuminate\Database\Eloquent\Model;
 
 class Product extends Model
 {
-  public $table="genres";
-  public $timestamps=false;
-  public $guarded=[];
+  protected $guarded = [];
+
+  public function category()
+  {
+      return $this->belongsTo('App\Category');
+  }
+  public function size()
+  {
+      return $this->belongsTo('App\Size');
+  }
 }
