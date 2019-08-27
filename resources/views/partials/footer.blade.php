@@ -3,7 +3,7 @@
       <div class="row row-30">
         <div class="col-md-4 col-xl-5">
           <div class="pr-xl-4">
-            <a class="brand" href="index.html"><img class="imagen-logo" src="img/logo_baja.png" alt="" width="140" height="37" srcset="img/logo_baja.png 2x"></a>
+            <a class="brand" href="/"><img class="imagen-logo" src="{{asset('img/logo_baja.png')}}" alt="" width="140" height="37" srcset="{{asset('img/logo_baja.png')}} 2x"></a>
             <p> Trabajamos por l@s niños y niñas que se encuentran en zonas inhóspitas e inaccesibles de la cordillera Argentina. </p>
             <!-- Rights-->
             <p class="rights"><span>© </span><span class="copyright-year">2019</span><span> </span><span>Waves</span><span>. </span><span> Todos los derechos reservados</span></p>
@@ -41,11 +41,12 @@
     </div>
 
     <div class="row no-gutters social-container">
-      <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-facebook"></span><span>Facebook</span></a></div>
-      <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-instagram"></span><span>instagram</span></a></div>
-      <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-twitter"></span><span>twitter</span></a></div>
-      <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-youtube-play"></span><span>google</span></a></div>
+      <div class="col"><a class="social-inner" href="http://facebook.com"><span class="icon mdi mdi-facebook"></span><span>facebook</span></a></div>
+      <div class="col"><a class="social-inner" href="http://instagram.com"><span class="icon mdi mdi-instagram"></span><span>instagram</span></a></div>
+      <div class="col"><a class="social-inner" href="http://Twitter.com"><span class="icon mdi mdi-twitter"></span><span>twitter</span></a></div>
+      <div class="col"><a class="social-inner" href="http://google.com"><span class="icon mdi mdi-youtube-play"></span><span>google</span></a></div>
     </div>
+
   </footer>
 
 

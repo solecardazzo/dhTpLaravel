@@ -1,7 +1,7 @@
 <body>
   <header class="encabezado">
     <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
-      <a class="navbar-brand" href="/"><img class="imagen-logo" src="img/logo_baja.png" alt=""></a>
+      <a class="navbar-brand" href="/"><img class="imagen-logo" src="{{ asset('img/logo_baja.png') }}" alt=""></a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb" aria-expanded="true">
         <span class="navbar-toggler-icon"></span>
       </button>

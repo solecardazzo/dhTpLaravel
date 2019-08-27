@@ -15,4 +15,5 @@
     <link href="{{ asset('css/master.css') }}" rel="stylesheet">
 
     <title>{{ config('app.name', 'Home') }}</title>
+    @yield('assets')
   </head>

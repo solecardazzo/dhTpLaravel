@@ -38,6 +38,7 @@ Route::get('/quienesSomos', function () {
 });
 
 Route::get('/product','ProductController@index');
+Route::get('/show/{id}', 'ProductController@show')->name('front.product.show');
 
 Route::get('/profile', "UserController@show")->name("profile")->middleware('auth');
 
