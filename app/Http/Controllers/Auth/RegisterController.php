@@ -53,8 +53,7 @@ class RegisterController extends Controller
             'name' => 'required|string|max:255',
             'email' => 'required|string|email|max:255|unique:users',
             'password' => 'required|string|min:6|confirmed',
-            'avatar' => 'file',
-            "confirm" => 'required',
+            'avatar' => 'required|mimes:jpeg,png,jpg,gif,svg'
         ]);
     }
 
@@ -69,13 +68,13 @@ class RegisterController extends Controller
       if (isset($data['avatar'])) {
         $filename = $data['avatar']->store('public/avatars');
         $dbFilename = basename($filename);
-        }
+      }
 
       return User::create([
         'name' => $data['name'],
         'email' => $data['email'],
         'password' => Hash::make($data['password']),
-        'avatar' => $dbFilename,
+        'avatar' => $dbFilename
       ]);
     }
 
