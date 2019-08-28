@@ -19,12 +19,12 @@
        </p>
        <p class="titulos-agradecimientos text-center"> Actual Consejo de administración: </p>
        <ul class="text-center">
-         <li type="square"> Presidente: Raúl Abel Bagatello </li>
-         <li type="square"> Vicepresidente: Juan José Costabella </li>
-         <li type="square"> Secretario: Alberto Jesús Lapasini </li>
-         <li type="square"> Tesorera: Gabriela Alejandra Furlani </li>
-         <li type="square"> Prosecretaria: Lidia Susana Comini </li>
-         <li type="square"> Protesorera: Vilma Susana Bagatello </li>
+         <li> Presidente: Raúl Abel Bagatello </li>
+         <li> Vicepresidente: Juan José Costabella </li>
+         <li> Secretario: Alberto Jesús Lapasini </li>
+         <li> Tesorera: Gabriela Alejandra Furlani </li>
+         <li> Prosecretaria: Lidia Susana Comini </li>
+         <li> Protesorera: Vilma Susana Bagatello </li>
        </ul>
    </div>
 
