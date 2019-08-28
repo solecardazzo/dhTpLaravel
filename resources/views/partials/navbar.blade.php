@@ -48,7 +48,7 @@
                {{ Auth::user()->name }}
             </a>
             <section class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-              <img src={{asset(Auth::user()->avatar)}} class="avatar">
+              <img src="{{asset(Auth::user()->avatar)}}" class="avatar">
                 <a class="dropdown-item" href="{{ route('profile') }}">Perfil</a>
                 <a class="dropdown-item" href="{{ route('logout') }}"
                   onclick="event.preventDefault();
