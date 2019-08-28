@@ -64,6 +64,15 @@
                             </div>
                         </div>
 
+                        <article class="form-group row">
+                          <label for="avatar" class="col-md-4 col-form-label text-md-right">{{ __('Ingresá tu Avatar') }}</label>
+                          <input id="avatar" type="file" class="form-control" name="avatar" placeholder="Ingresá tu Avatar">
+                          @if ($errors->has('avatar'))
+                          <strong>{{ $errors->first('avatar') }}</strong>
+                          @endif
+                          <p id= "errorAvatar"></p>
+                        </article>
+
                         <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
                                 <button type="submit" class="btn btn-primary btn-lg btn-block text-uppercase">
