@@ -1,6 +1,3 @@
-console.log("OK OK OK");
-console.log(window.location.pathname);
-
 window.onload = function() {
 
   if(window.location.pathname !== "/product" && window.location.pathname !== "/edit/" && window.location.pathname !== "/profile" && window.location.pathname !== "/login" && window.location.pathname !== "/cart" && window.location.pathname !== "/register" && window.location.pathname.split('/').length => 2) {

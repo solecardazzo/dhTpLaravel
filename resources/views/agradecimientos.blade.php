@@ -13,17 +13,17 @@
   </div>
 
   <div class="row no-gutters agrade-container">
-    <div class="col"><a class="social-inner" href="#"><img src="img/atilra.jpg" alt=""></a></div>
-    <div class="col"><a class="social-inner" href="#"><img src="img/cali_logo.jpg" alt=""></a></div>
-    <div class="col"><a class="social-inner" href="#"><img src="img/districar_logo.jpg" alt=""></a></div>
-    <div class="col"><a class="social-inner" href="#"><img src="img/fadepa_logo.jpg" alt=""></a></div>
+    <div class="col"><a class="social-inner" href="#"><img class= "home-imagen" src="img/atilra.jpg" alt=""></a></div>
+    <div class="col"><a class="social-inner" href="#"><img class= "home-imagen" src="img/cali_logo.jpg" alt=""></a></div>
+    <div class="col"><a class="social-inner" href="#"><img class= "home-imagen" src="img/districar_logo.jpg" alt=""></a></div>
+    <div class="col"><a class="social-inner" href="#"><img class= "home-imagen" src="img/fadepa_logo.jpg" alt=""></a></div>
   </div>
 
   <div class="row no-gutters agrade-container">
-    <div class="col"><a class="social-inner" href="#"><img src="img/iso_rosamonte.jpg" alt=""></a></div>
-    <div class="col"><a class="social-inner" href="#"><img src="img/LOGO CONTA.jpg" alt=""></a></div>
-    <div class="col"><a class="social-inner" href="#"><img src="img/logo_lospinos.jpg" alt=""></a></div>
-    <div class="col"><a class="social-inner" href="#"><img src="img/logo-epta.jpg" alt=""></a></div>
+    <div class="col"><a class="social-inner" href="#"><img class= "home-imagen" src="img/iso_rosamonte.jpg" alt=""></a></div>
+    <div class="col"><a class="social-inner" href="#"><img class= "home-imagen" src="img/LOGO CONTA.jpg" alt=""></a></div>
+    <div class="col"><a class="social-inner" href="#"><img class= "home-imagen" src="img/logo_lospinos.jpg" alt=""></a></div>
+    <div class="col"><a class="social-inner" href="#"><img class= "home-imagen" src="img/logo-epta.jpg" alt=""></a></div>
   </div>
 </section>
 @endsection
