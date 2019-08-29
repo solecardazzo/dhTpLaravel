@@ -1,8 +1,16 @@
-/* HERNI */
+/*Fotos portada*/
+
+.home-imagen {
+  width: 50%;
+}
+
+/* Foto Perfil */
 
 img {
   width: 100%;
 }
+
+
 
 /* CSS Header */
 .imagen-logo{

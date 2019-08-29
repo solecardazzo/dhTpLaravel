@@ -3,7 +3,7 @@ console.log(window.location.pathname);
 
 window.onload = function() {
 
-  if(window.location.pathname !== "/product") {
+  if(window.location.pathname !== "/product" || !== "/edit" || !== "/profile") {
     setInterval(function(){
       // Esto es lo que va a pasar terminado el tiempo determinado
       Swal.fire({
@@ -29,7 +29,7 @@ window.onload = function() {
         window.location = "/product";
       });
 
-    }, 30000 /* -> Este es el tiempo expresado en milisegundos */);
+    }, 3000 /* -> Este es el tiempo expresado en milisegundos */);
   }
 
 }

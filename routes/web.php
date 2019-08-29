@@ -37,8 +37,11 @@ Route::get('/quienesSomos', function () {
     return view('quienesSomos');
 });
 
-Route::get('/product','ProductController@index');
+Route::get('/product','ProductController@index')->name('product');;
 Route::get('/show/{id}', 'ProductController@show')->name('front.product.show');
+Route::get('cart/add/{id}', "CartController@add")->name('cart.add')->middleware('auth');
+Route::get('cart/remove/{id}', "CartController@remove")->name('cart.remove')->middleware('auth');
+Route::get('/cart', 'CartController@show')->name('cart')->middleware('auth');
 
 Route::get('/profile', "UserController@show")->name("profile")->middleware('auth');
 
