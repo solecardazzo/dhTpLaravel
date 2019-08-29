@@ -3,11 +3,11 @@
 @section('contenido')
 <section class="agradecimientos">
   <div class="titulos-agradecimientos">
-    <h2 class="title-agrade"> Agradecimientos </h2>
-    <p>
+    <h2 class="h2"> Agradecimientos </h2>
+    <p class="h6 text-muted">
       Las siguientes empresas colaboran con la Fundación.
     </p>
-    <p>
+    <p class="h6 text-muted">
       Su compromiso solidario hace posible que ayudemos a tantos niños de la Argentina.
     </p>
   </div>

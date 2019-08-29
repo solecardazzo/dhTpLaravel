@@ -4,8 +4,8 @@
 <section class="agradecimientos">
 
   <div class="titulos-agradecimientos">
-    <h2 class="title-agrade"> Eventos </h2>
-    <p>
+    <h2 class="h2"> Eventos </h2>
+    <p class= "h6 text-muted">
       Conocé los eventos a beneficio que realizamos para ayudar a niños y niñas de Argentina.
     </p>
   </div>
