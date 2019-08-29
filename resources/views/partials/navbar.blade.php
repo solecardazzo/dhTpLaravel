@@ -42,9 +42,9 @@
           </li>
         </ul>
 
-        <ul class="nav navbar-nav ml-auto">
+        <ul class="nav navbar-nav ml-auto dropdown-toggle">
       <li class="nav-item dropdown">
-            <a id="navbarDropdown" class="nav-link text-uppercase dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+            <a id="navbarDropdown" class="nav-link text-uppercase dropdown-toggle" role="button" data-toggle="dropdown" data-hover="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                {{ Auth::user()->name }}
             </a>
             <section class="dropdown-menu dropdown-menu-right pt-0" aria-labelledby="navbarDropdown">

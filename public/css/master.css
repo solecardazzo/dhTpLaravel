@@ -10,6 +10,11 @@ img {
   width: 100%;
 }
 
+/* CSS navbar hover */
+.navbar-nav li:hover>.dropdown-menu {
+  display: block;
+}
+
 
 
 /* CSS Header */
