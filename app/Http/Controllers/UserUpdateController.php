@@ -9,9 +9,8 @@ class UserUpdateController extends Controller
 {
   public function edit($id)
   {
-      $genres = ['Hombre','Mujer','Otro'];
       $user = User::find($id);
-      return view('auth.change',compact('user','genres'));
+      return view('auth.change',compact('user'));
   }
 
   public function update(Request $request, $id)
@@ -37,8 +36,8 @@ class UserUpdateController extends Controller
       $path = $request->file('avatar');
 
       if ($path) {
-          $path->storeAs('public/products', 'avatar'.$request->user()->id);
-          $user->avatar = 'storage/products/avatar'.$request->user()->id;
+          $path->storeAs('public/avatars', 'avatar'.$request->user()->id);
+          $user->avatar = 'public/avatars'.$request->user()->id;
       }
 
       $user->save();

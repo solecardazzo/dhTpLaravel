@@ -4,7 +4,7 @@
   		<section class="row align-items-center">
 				<article class="col-sm-10">
 				<h1 class="">{{Auth::User()->name}}</h1>
-				<a  href="{{route('edit', Auth::User()->id)}}" class="btn btn-warning">Edit Profile</a>
+				<a  href="{{route('edit', Auth::User()->id)}}" class="btn btn-warning">Editar Perfil</a>
 				</article>
   			<section class="col-12 col-md-5"><a href="" class="pull-sright"><img id="avatar" title="profile image" class="img-circle img-responsive" src="{{asset('/storage/avatars/'.Auth::User()->avatar)}}"></a></section>
   		  <hr>

@@ -46,3 +46,4 @@ Auth::routes();
 
 
 Route::get('/edit/{id}', 'UserUpdateController@edit')->middleware('auth')->name('edit');
+Route::get('/update/{id}', 'UserUpdateController@update')->name('update');
